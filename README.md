@@ -5,11 +5,12 @@ This is a lightweight, modern CSS reset similar to normalize.css but better. It 
 Features:
 
 - resets browser inconsistencies
-- provides simple default element styles for all elements
-- responsive typography scaling
+- provides default element styles for all elements
+- responsive typography
 - responsive images and videos
 
-Part of Minimos framework - http://minimos.net
+Inspired by:
+- http://marxo.me/about-canonical-css/
+- https://necolas.github.io/normalize.css/
 
-by @dylanized
-
+Part of Minimos framework - http://github.com/dylanized/minimos
