@@ -1,6 +1,6 @@
 # minimos-reset
 
-This is a lightweight, modern CSS reset similar to normalize.css but better. It is actually based on Canonical.css but with some modifications.
+This is a lightweight, modern CSS reset.
 
 Features:
 
