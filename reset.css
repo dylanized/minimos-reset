@@ -70,8 +70,8 @@
 	  vertical-align: baseline;
 	}
 	
-	sup { top: -0.25em; }
-	sub { bottom: -0.25em; }	
+	sup, .sup { top: -0.25em; }
+	sub, .sub { bottom: -0.25em; }	
 	
 	ul, ol {
 		margin : 0 0 1rem 2rem;
