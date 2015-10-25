@@ -58,7 +58,9 @@
 	strong { font-weight: bold; }	
 	
 	sub,
-	sup {
+	sup,
+	.sub,
+	.sup {
 	  font-size: .75em;
 	  line-height: 0;
 	  position: relative;
@@ -127,11 +129,6 @@
 
 /* form stuff */
 
-	textarea {
-	  overflow: auto;
-	  resize: vertical;
-	}
-
 	button,
 	input,
 	optgroup,
@@ -142,6 +139,11 @@
 	  margin: 0;
 	}
 	
+	textarea {
+	  overflow: auto;
+	  resize: vertical;
+	}
+
 	button {
 	  overflow: visible;
 	}

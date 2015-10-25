@@ -4,10 +4,11 @@ This is a lightweight, modern CSS reset similar to normalize.css but better. It 
 
 Features:
 
-- resets browser inconsistencies
-- provides default element styles for all elements
-- responsive typography
+- reset browser inconsistencies
+- provide default styles for all elements
 - responsive images and videos
+- responsive typography
+- and more
 
 Inspired by:
 - http://marxo.me/about-canonical-css/
