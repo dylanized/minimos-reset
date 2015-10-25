@@ -109,7 +109,7 @@
 	img,
 	object,
 	embed {
-	  max-width: 100%;	/* responsive images */
+	  max-width: 100%; /* responsive images */
 	}
 	
 	video {
