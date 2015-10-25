@@ -4,10 +4,11 @@ This is a lightweight, modern CSS reset similar to normalize.css but better. It 
 
 Features:
 
-- reset browser inconsistencies
+- sets the proper box model and other global settings
 - provide default styles for all elements
-- responsive images and videos
-- responsive typography
+- removes browser quirks and inconsistencies
+- enables responsive images and videos
+- enables responsive typography and "rem" scaling
 - and more
 
 Inspired by:
