@@ -1,3 +1,5 @@
+/* MINIMOS RESET */
+
 /* global stuff */
 
 	@charset "UTF-8";
@@ -47,11 +49,6 @@
 
 /* element defaults */
 
-	h1, h2, h3, h4, h5, h6 {
-		margin : 0 0 1rem 0;
-		padding : 0;
-	}
-	
 	p, .p {
 		margin : 0 0 1rem 0;
 		padding : 0;		
@@ -70,8 +67,8 @@
 	  vertical-align: baseline;
 	}
 	
-	sup, .sup { top: -0.25em; }
-	sub, .sub { bottom: -0.25em; }	
+	sup { top: -0.25em; }
+	sub { bottom: -0.25em; }	
 	
 	ul, ol {
 		margin : 0 0 1rem 2rem;
@@ -86,7 +83,7 @@
 	}
 
 	small, .small {
-		font-size : 0.75em;
+		font-size : 0.8em;
 	}
 	
 	img {
@@ -107,6 +104,17 @@
 	td,
 	th {
 	  padding: 0;
+	}	
+	
+	dt, dd {
+		display : block;
+		margin : 0 0 1rem 0;
+		padding : 0;
+	}
+	
+	dt {
+		font-weight : bold;
+		margin-bottom : 0;
 	}	
 	
 	img,
@@ -132,11 +140,17 @@
 
 /* form stuff */
 
-	button,
-	input,
-	optgroup,
+	fieldset, .fieldset {
+		border : none;
+		padding : 0;
+		margin : 0 0 1rem 0;
+	}
+
+	input,				
+	textarea,
 	select,
-	textarea {
+	button,
+	optgroup {
 	  color: inherit;
 	  font: inherit;
 	  margin: 0;
@@ -213,11 +227,6 @@
 	}	
 	
 /* breakpoints and scaling */
-
-	/* xs */
-	@media only screen and (max-width: 539px) {
-		
-	}		
 	
 	/* sm+ */
 	@media only screen and (min-width: 540px) {
